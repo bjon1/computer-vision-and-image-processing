@@ -17,13 +17,13 @@ import numpy as np
 import cv2
 
 
-'''
-    Convert the RGB to HSV code so it produces values in OpenCv's specified ranges and array
-    structure. Your function should accept a 3D array and return HSV values in OpenCv's ranges. 
-    H -> [0,180], S -> [0,255], V -> [0,255]
-'''
-
 def rgb_to_hsv(rgb):
+
+    '''
+        Convert the RGB to HSV code so it produces values in OpenCv's specified ranges and array
+        structure. Your function should accept a 3D array and return HSV values in OpenCv's ranges. 
+        H -> [0,180], S -> [0,255], V -> [0,255]
+    '''
 
     rgb = rgb/255
 
